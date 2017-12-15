@@ -24,7 +24,7 @@ EditWindowCount=1
 [C:\Users\leere\Desktop\workspace\dbexam2\Unit7.cpp]
 ModuleType=TSourceModule
 FormState=1
-FormOnTop=1
+FormOnTop=0
 
 [default.htm]
 ModuleType=TURLModule
@@ -70,13 +70,13 @@ WelcomePageURL=bds:/default.htm
 [View1]
 CustomEditViewType=TEditView
 Module=C:\Users\leere\Desktop\workspace\dbexam2\Unit7.cpp
-CursorX=40
-CursorY=35
+CursorX=18
+CursorY=17
 TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=Borland.FormDesignerView
+EditViewName=C:\Users\leere\Desktop\workspace\dbexam2\Unit7.cpp
 
 [Watches]
 Count=0
@@ -202,7 +202,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=5221
-TBDockHeight=9019
+TBDockHeight=7019
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
@@ -211,7 +211,7 @@ SplitPos=111
 [PropInspDesignerSelection]
 ArrangeBy=Name
 SelectedItem=Action,
-ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0
+ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0,Font=0
 
 [TFileExplorerForm]
 PercentageSizes=1
@@ -219,8 +219,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-1536
-Top=-102
+Left=-1418
+Top=-12
 Width=2844
 Height=6202
 MaxLeft=-1
@@ -239,7 +239,7 @@ Visible=0
 Docked=1
 State=0
 Left=-1728
-Top=-102
+Top=269
 Width=276
 Height=356
 MaxLeft=-1
@@ -343,11 +343,11 @@ State=0
 Left=0
 Top=0
 Width=2339
-Height=1240
+Height=1000
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2339
-ClientHeight=1240
+ClientHeight=1000
 TBDockHeight=2317
 LRDockWidth=2823
 Dockable=1
@@ -408,11 +408,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8779
+Height=6779
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8779
+ClientHeight=6779
 TBDockHeight=4885
 LRDockWidth=7151
 Dockable=1
@@ -446,11 +446,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8779
+Height=6779
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8779
+ClientHeight=6779
 TBDockHeight=4885
 LRDockWidth=5307
 Dockable=1
@@ -463,7 +463,7 @@ Visible=0
 Docked=1
 State=0
 Left=-182
-Top=-102
+Top=-100
 Width=1844
 Height=3144
 MaxLeft=-1
@@ -729,7 +729,7 @@ LRDockWidth=2745
 Dockable=1
 StayOnTop=0
 
-[Item__CE401FF6_F956_4BDB_9F54_088BD85F0CF4_]
+[Item__C74C7DBB_4D99_4FF4_BABE_F02A005254E6_]
 PercentageSizes=1
 Create=1
 Visible=0
@@ -748,7 +748,7 @@ LRDockWidth=2745
 Dockable=1
 StayOnTop=0
 
-[Item__C74C7DBB_4D99_4FF4_BABE_F02A005254E6_]
+[Item__CE401FF6_F956_4BDB_9F54_088BD85F0CF4_]
 PercentageSizes=1
 Create=1
 Visible=0
@@ -822,7 +822,7 @@ Visible=0
 Docked=1
 State=0
 Left=0
-Top=0
+Top=23
 Width=3823
 Height=1423
 MaxLeft=-1
@@ -853,7 +853,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
 ClientHeight=4596
-TBDockHeight=9019
+TBDockHeight=7019
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
@@ -877,7 +877,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=3558
-TBDockHeight=9019
+TBDockHeight=7019
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
@@ -901,7 +901,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
 ClientHeight=4183
-TBDockHeight=9019
+TBDockHeight=7019
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
