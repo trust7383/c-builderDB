@@ -1,0 +1,333 @@
+﻿object Form7: TForm7
+  Left = 0
+  Top = 0
+  Caption = 'Form7'
+  ClientHeight = 721
+  ClientWidth = 1121
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label9: TLabel
+    Left = 112
+    Top = 768
+    Width = 48
+    Height = 13
+    Caption = #44397#44032'/'#51648#50669
+    FocusControl = DBEdit8
+  end
+  object Label1: TLabel
+    Left = 26
+    Top = 368
+    Width = 11
+    Height = 13
+    Caption = 'ID'
+    FocusControl = DBEdit1
+  end
+  object Label2: TLabel
+    Left = 26
+    Top = 408
+    Width = 22
+    Height = 13
+    Caption = #54924#49324
+    FocusControl = DBEdit2
+  end
+  object Label3: TLabel
+    Left = 26
+    Top = 448
+    Width = 11
+    Height = 13
+    Caption = #49457
+    FocusControl = DBEdit3
+  end
+  object Label4: TLabel
+    Left = 26
+    Top = 488
+    Width = 22
+    Height = 13
+    Caption = #51060#47492
+    FocusControl = DBEdit4
+  end
+  object Label5: TLabel
+    Left = 360
+    Top = 368
+    Width = 72
+    Height = 13
+    Caption = #51204#51088' '#47700#51068' '#51452#49548
+    FocusControl = DBEdit5
+  end
+  object Label6: TLabel
+    Left = 360
+    Top = 408
+    Width = 22
+    Height = 13
+    Caption = #51649#50948
+    FocusControl = DBEdit6
+  end
+  object Label7: TLabel
+    Left = 360
+    Top = 448
+    Width = 33
+    Height = 13
+    Caption = #55092#45824#54256
+    FocusControl = DBEdit7
+  end
+  object Label8: TLabel
+    Left = 360
+    Top = 488
+    Width = 22
+    Height = 13
+    Caption = #51452#49548
+    FocusControl = DBMemo1
+  end
+  object Label10: TLabel
+    Left = 360
+    Top = 600
+    Width = 48
+    Height = 13
+    Caption = #44397#44032'/'#51648#50669
+    FocusControl = DBEdit9
+  end
+  object DBGrid1: TDBGrid
+    Left = 32
+    Top = 136
+    Width = 1057
+    Height = 193
+    DataSource = DContact
+    Options = [dgEditing, dgAlwaysShowEditor, dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'ID'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #54924#49324
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #49457
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #51060#47492
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #51204#51088' '#47700#51068' '#51452#49548
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #51649#50948
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #55092#45824#54256
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #51452#49548
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #44397#44032'/'#51648#50669
+        Visible = True
+      end>
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 32
+    Top = 80
+    Width = 650
+    Height = 33
+    Kind = dbnHorizontal
+    TabOrder = 1
+  end
+  object DBEdit8: TDBEdit
+    Left = 112
+    Top = 784
+    Width = 264
+    Height = 21
+    DataField = #44397#44032'/'#51648#50669
+    DataSource = DContact
+    TabOrder = 2
+  end
+  object DBEdit1: TDBEdit
+    Left = 26
+    Top = 381
+    Width = 134
+    Height = 21
+    DataField = 'ID'
+    DataSource = DContact
+    TabOrder = 3
+  end
+  object DBEdit2: TDBEdit
+    Left = 26
+    Top = 421
+    Width = 264
+    Height = 21
+    DataField = #54924#49324
+    DataSource = DContact
+    TabOrder = 4
+  end
+  object DBEdit3: TDBEdit
+    Left = 26
+    Top = 464
+    Width = 264
+    Height = 21
+    DataField = #49457
+    DataSource = DContact
+    TabOrder = 5
+  end
+  object DBEdit4: TDBEdit
+    Left = 26
+    Top = 504
+    Width = 264
+    Height = 21
+    DataField = #51060#47492
+    DataSource = DContact
+    TabOrder = 6
+  end
+  object DBEdit5: TDBEdit
+    Left = 360
+    Top = 384
+    Width = 264
+    Height = 21
+    DataField = #51204#51088' '#47700#51068' '#51452#49548
+    DataSource = DContact
+    TabOrder = 7
+  end
+  object DBEdit6: TDBEdit
+    Left = 360
+    Top = 424
+    Width = 264
+    Height = 21
+    DataField = #51649#50948
+    DataSource = DContact
+    TabOrder = 8
+  end
+  object DBEdit7: TDBEdit
+    Left = 360
+    Top = 464
+    Width = 264
+    Height = 21
+    DataField = #55092#45824#54256
+    DataSource = DContact
+    TabOrder = 9
+  end
+  object DBMemo1: TDBMemo
+    Left = 360
+    Top = 504
+    Width = 185
+    Height = 89
+    DataField = #51452#49548
+    DataSource = DContact
+    TabOrder = 10
+  end
+  object DBEdit9: TDBEdit
+    Left = 592
+    Top = 736
+    Width = 264
+    Height = 21
+    DataField = #44397#44032'/'#51648#50669
+    DataSource = DContact
+    TabOrder = 11
+  end
+  object Button1: TButton
+    Left = 648
+    Top = 384
+    Width = 105
+    Height = 39
+    Caption = #49688#51221#54616#44592
+    TabOrder = 12
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 648
+    Top = 448
+    Width = 105
+    Height = 37
+    Caption = #49325#51228#54616#44592
+    TabOrder = 13
+    OnClick = Button2Click
+  end
+  object TConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Us' +
+      'ers\leere\Desktop\workspace\dbexam2\hrdmember.mdb;Mode=Share Den' +
+      'y None;Persist Security Info=False;Jet OLEDB:System database="";' +
+      'Jet OLEDB:Registry Path="";Jet OLEDB:Database Password="";Jet OL' +
+      'EDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Gl' +
+      'obal Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet' +
+      ' OLEDB:New Database Password="";Jet OLEDB:Create System Database' +
+      '=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don'#39't Copy Loc' +
+      'ale on Compact=False;Jet OLEDB:Compact Without Replica Repair=Fa' +
+      'lse;Jet OLEDB:SFP=False'
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 80
+    Top = 64
+  end
+  object TContact: TADOTable
+    Active = True
+    Connection = TConnection1
+    CursorType = ctStatic
+    TableName = 'conNumber'
+    Left = 160
+    Top = 64
+    object TContactID: TAutoIncField
+      FieldName = 'ID'
+      ReadOnly = True
+    end
+    object TContact회사: TWideStringField
+      FieldName = #54924#49324
+    end
+    object TContact성: TWideStringField
+      FieldName = #49457
+    end
+    object TContact이름: TWideStringField
+      FieldName = #51060#47492
+    end
+    object TContact전자메일주소: TWideStringField
+      FieldName = #51204#51088' '#47700#51068' '#51452#49548
+    end
+    object TContact직위: TWideStringField
+      FieldName = #51649#50948
+    end
+    object TContact휴대폰: TWideStringField
+      FieldName = #55092#45824#54256
+    end
+    object TContact주소: TWideMemoField
+      FieldName = #51452#49548
+      BlobType = ftWideMemo
+    end
+    object TContact국가지역: TWideStringField
+      FieldName = #44397#44032'/'#51648#50669
+    end
+  end
+  object DContact: TDataSource
+    DataSet = TContact
+    Left = 160
+    Top = 144
+  end
+end
